@@ -1,0 +1,7 @@
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/install/local.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/install.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir
+/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/list_install_components.dir
