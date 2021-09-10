@@ -5,18 +5,18 @@
 #include <iostream>
 #include "Game.h"
 
-Game::Game() = default;
+Game::Game() {
+}
 
 Game::~Game() = default;
 
-void Game::init(const char *title, int xpos, int ypos, int width, int height, bool fullscreen) {
+bool Game::init(const char *title, int xpos, int ypos, int width, int height, bool fullscreen) {
     int flags = 0;
 
     if (fullscreen) {
         flags = SDL_WINDOW_FULLSCREEN;
     }
     if (SDL_Init(SDL_INIT_EVERYTHING) == 0) {
-        std::cout << "Game Inicialize" << std::endl;
         window = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
         if (window) {
             std::cout << "window created" << std::endl;
@@ -24,18 +24,17 @@ void Game::init(const char *title, int xpos, int ypos, int width, int height, bo
         renderer = SDL_CreateRenderer(window, -1, 0);
         if (renderer) {
             std::cout << "renderer created" << std::endl;
-
         }
         isRunning = true;
 
     } else {
         isRunning = false;
     }
-    std::cout << "Texture Inicialize" << std::endl;
-
-    TextureManager::load("assets/Adam_run_16x16.png", "animate", renderer);
-    std::cout << "Texture Inicialized" << std::endl;
-
+    m_go.load(100, 100, 16, 32, "animate");
+    m_player.load(300, 300, 16, 32, "animate");
+    if (!TheTextureManager::Instance()->load("assets/Adam_run_16x16.png", "animate", renderer)) {
+        return false;
+    }
 }
 
 void Game::handleEvents() {
@@ -51,17 +50,18 @@ void Game::handleEvents() {
     }
 }
 
-void Game::render() {
+bool Game::render() {
     SDL_RenderClear(renderer);
-    TextureManager::draw("animate", 0, 0, 288, 8, renderer);
-
-    TextureManager::drawFrame("animate", 0, 0, 288, 8, 1, m_currentFrame, renderer);
+//    TheTextureManager::Instance()->drawFrame("animate", 100, 100, 16, 32, 1, m_currentFrame, renderer);
+    m_go.draw(renderer);
+    m_player.draw(renderer);
     SDL_RenderPresent(renderer);
 
 }
 
 void Game::update() {
-    m_currentFrame = int(((SDL_GetTicks() / 100) % 6));
+    m_go.update();
+    m_player.update();
 }
 
 

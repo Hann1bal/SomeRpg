@@ -130,6 +130,18 @@
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Game.h">
 			<Option target="SomeRPG"/>
 		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameObject.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameObject.h">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Player.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Player.h">
+			<Option target="SomeRPG"/>
+		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp">
 			<Option target="SomeRPG"/>
 		</Unit>

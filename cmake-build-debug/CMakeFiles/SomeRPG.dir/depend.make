@@ -4,11 +4,23 @@
 CMakeFiles/SomeRPG.dir/Game.cpp.o: \
  ../Game.cpp \
  ../Game.h \
+ ../GameObject.h \
+ ../Player.h \
  ../TextureManager.h
+CMakeFiles/SomeRPG.dir/GameObject.cpp.o: \
+ ../GameObject.cpp \
+ ../GameObject.h \
+ ../TextureManager.h
+CMakeFiles/SomeRPG.dir/Player.cpp.o: \
+ ../GameObject.h \
+ ../Player.cpp \
+ ../Player.h
 CMakeFiles/SomeRPG.dir/TextureManager.cpp.o: \
  ../TextureManager.cpp \
  ../TextureManager.h
 CMakeFiles/SomeRPG.dir/main.cpp.o: \
  ../Game.h \
+ ../GameObject.h \
+ ../Player.h \
  ../TextureManager.h \
  ../main.cpp

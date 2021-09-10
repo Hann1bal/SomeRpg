@@ -198,6 +198,54 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameObject.o: GameObject.cpp.o
+.PHONY : GameObject.o
+
+# target to build an object file
+GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.o
+.PHONY : GameObject.cpp.o
+
+GameObject.i: GameObject.cpp.i
+.PHONY : GameObject.i
+
+# target to preprocess a source file
+GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.i
+.PHONY : GameObject.cpp.i
+
+GameObject.s: GameObject.cpp.s
+.PHONY : GameObject.s
+
+# target to generate assembly for a file
+GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.s
+.PHONY : GameObject.cpp.s
+
+Player.o: Player.cpp.o
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 TextureManager.o: TextureManager.cpp.o
 .PHONY : TextureManager.o
 
@@ -262,6 +310,12 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameObject.o"
+	@echo "... GameObject.i"
+	@echo "... GameObject.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... TextureManager.o"
 	@echo "... TextureManager.i"
 	@echo "... TextureManager.s"

@@ -6,23 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/rusichru/CLionProjects/SomeRPG/Game.cpp
-iostream
--
-Game.h
-/home/rusichru/CLionProjects/SomeRPG/Game.h
+/home/rusichru/CLionProjects/SomeRPG/GameObject.cpp
+GameObject.h
+/home/rusichru/CLionProjects/SomeRPG/GameObject.h
+TextureManager.h
+/home/rusichru/CLionProjects/SomeRPG/TextureManager.h
 
-/home/rusichru/CLionProjects/SomeRPG/Game.h
+/home/rusichru/CLionProjects/SomeRPG/GameObject.h
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
 -
-TextureManager.h
-/home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+iostream
+-
+
+/home/rusichru/CLionProjects/SomeRPG/Player.cpp
+Player.h
+/home/rusichru/CLionProjects/SomeRPG/Player.h
+
+/home/rusichru/CLionProjects/SomeRPG/Player.h
+GameObject.h
+/home/rusichru/CLionProjects/SomeRPG/GameObject.h
 
 /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
 iostream
 -
 SDL2/SDL.h
+-
+map
 -
 

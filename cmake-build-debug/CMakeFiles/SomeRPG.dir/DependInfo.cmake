@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rusichru/CLionProjects/SomeRPG/Game.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Game.cpp.o"
+  "/home/rusichru/CLionProjects/SomeRPG/GameObject.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/GameObject.cpp.o"
+  "/home/rusichru/CLionProjects/SomeRPG/Player.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Player.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/TextureManager.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/main.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/main.cpp.o"
   )

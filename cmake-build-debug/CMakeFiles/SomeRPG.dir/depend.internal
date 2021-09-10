@@ -4,11 +4,23 @@
 CMakeFiles/SomeRPG.dir/Game.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.cpp
  /home/rusichru/CLionProjects/SomeRPG/Game.h
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+CMakeFiles/SomeRPG.dir/GameObject.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.cpp
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+CMakeFiles/SomeRPG.dir/Player.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.cpp
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
 CMakeFiles/SomeRPG.dir/TextureManager.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
 CMakeFiles/SomeRPG.dir/main.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.h
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
  /home/rusichru/CLionProjects/SomeRPG/main.cpp
