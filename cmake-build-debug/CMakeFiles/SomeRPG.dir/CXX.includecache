@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rusichru/CLionProjects/SomeRPG/Game.cpp
+iostream
+-
+Game.h
+/home/rusichru/CLionProjects/SomeRPG/Game.h
+
+/home/rusichru/CLionProjects/SomeRPG/Game.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+TextureManager.h
+/home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+
+/home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+iostream
+-
+SDL2/SDL.h
+-
+
