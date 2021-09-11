@@ -124,6 +124,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Enemy.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Enemy.h">
+			<Option target="SomeRPG"/>
+		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Game.cpp">
 			<Option target="SomeRPG"/>
 		</Unit>
@@ -136,10 +142,22 @@
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameObject.h">
 			<Option target="SomeRPG"/>
 		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/LoaderParams.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/LoaderParams.h">
+			<Option target="SomeRPG"/>
+		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Player.cpp">
 			<Option target="SomeRPG"/>
 		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Player.h">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/SDLGameObject.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h">
 			<Option target="SomeRPG"/>
 		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp">

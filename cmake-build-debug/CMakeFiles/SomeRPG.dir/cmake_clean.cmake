@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SomeRPG.dir/Enemy.cpp.o"
   "CMakeFiles/SomeRPG.dir/Game.cpp.o"
   "CMakeFiles/SomeRPG.dir/GameObject.cpp.o"
+  "CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o"
   "CMakeFiles/SomeRPG.dir/Player.cpp.o"
+  "CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o"
   "CMakeFiles/SomeRPG.dir/TextureManager.cpp.o"
   "CMakeFiles/SomeRPG.dir/main.cpp.o"
   "SomeRPG"

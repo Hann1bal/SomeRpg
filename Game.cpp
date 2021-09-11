@@ -3,12 +3,12 @@
 //
 
 #include <iostream>
+
 #include "Game.h"
+#include "Player.h"
+#include "Enemy.h"
 
-Game::Game() {
-}
-
-Game::~Game() = default;
+Game *Game::s_pInstance = 0;
 
 bool Game::init(const char *title, int xpos, int ypos, int width, int height, bool fullscreen) {
     int flags = 0;
@@ -21,8 +21,8 @@ bool Game::init(const char *title, int xpos, int ypos, int width, int height, bo
         if (window) {
             std::cout << "window created" << std::endl;
         }
-        renderer = SDL_CreateRenderer(window, -1, 0);
-        if (renderer) {
+        m_pRenderer = SDL_CreateRenderer(window, -1, 0);
+        if (m_pRenderer) {
             std::cout << "renderer created" << std::endl;
         }
         isRunning = true;
@@ -30,11 +30,16 @@ bool Game::init(const char *title, int xpos, int ypos, int width, int height, bo
     } else {
         isRunning = false;
     }
-    m_go.load(100, 100, 16, 32, "animate");
-    m_player.load(300, 300, 16, 32, "animate");
-    if (!TheTextureManager::Instance()->load("assets/Adam_run_16x16.png", "animate", renderer)) {
+
+    m_gameObjects.push_back(new Player(new LoaderParams(100, 100, 16, 32, "animate")));
+    m_gameObjects.push_back(new Enemy(new LoaderParams(300, 300, 16, 32, "animate")));
+
+
+    if (!TheTextureManager::Instance()->load("assets/Adam_run_16x16.png", "animate",
+                                             TheGame::Instance()->getRenderer())) {
         return false;
     }
+    return true;
 }
 
 void Game::handleEvents() {
@@ -50,23 +55,23 @@ void Game::handleEvents() {
     }
 }
 
-bool Game::render() {
-    SDL_RenderClear(renderer);
-//    TheTextureManager::Instance()->drawFrame("animate", 100, 100, 16, 32, 1, m_currentFrame, renderer);
-    m_go.draw(renderer);
-    m_player.draw(renderer);
-    SDL_RenderPresent(renderer);
-
+void Game::render() {
+    SDL_RenderClear(TheGame::Instance()->getRenderer());
+    for (std::vector<GameObject *>::size_type i = 0; i != m_gameObjects.size(); i++) {
+        m_gameObjects[i]->draw();
+    }
+    SDL_RenderPresent(TheGame::Instance()->getRenderer());
 }
 
 void Game::update() {
-    m_go.update();
-    m_player.update();
+    for (std::vector<GameObject *>::size_type i = 0; i != m_gameObjects.size(); i++) {
+        m_gameObjects[i]->update();
+    }
 }
 
 
 void Game::clean() {
     SDL_DestroyWindow(window);
-    SDL_DestroyRenderer(renderer);
+    SDL_DestroyRenderer(TheGame::Instance()->getRenderer());
     SDL_Quit();
 }

@@ -1,9 +1,8 @@
 //
 // Created by rusichru on 10.09.2021.
 //
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
 #include <iostream>
+#include "LoaderParams.h"
 
 #ifndef SOMERPG_GAMEOJECT_H
 #define SOMERPG_GAMEOJECT_H
@@ -11,24 +10,18 @@
 
 class GameObject {
 public:
-    void load(int x, int y, int width, int height, std::string textureID);
+    virtual void draw() = 0;
 
-    void draw(SDL_Renderer *pRenderer);
+    virtual void update() = 0;
 
-    void update();
-
-    void clean();
+    virtual void clean() = 0;
 
 
 protected:
-    std::string m_textureID;
+    GameObject(const LoaderParams *pParams) {}
 
-    int m_currentFrame;
-    int m_currentRow;
-    int m_y;
-    int m_x;
-    int m_width;
-    int m_height;
+    virtual ~GameObject() {}
+
 
 };
 

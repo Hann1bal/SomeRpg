@@ -3,7 +3,7 @@ project(SomeRPG)
 find_package(SDL2 REQUIRED SDL2)
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SomeRPG main.cpp Game.cpp Game.h TextureManager.cpp TextureManager.h GameObject.cpp GameObject.h Player.cpp Player.h)
+add_executable(SomeRPG main.cpp Game.cpp Game.h TextureManager.cpp TextureManager.h GameObject.cpp GameObject.h Player.cpp Player.h Enemy.cpp Enemy.h LoaderParams.cpp LoaderParams.h SDLGameObject.cpp SDLGameObject.h)
 
 include_directories(assets)
 

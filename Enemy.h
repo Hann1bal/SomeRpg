@@ -2,16 +2,16 @@
 // Created by rusichru on 10.09.2021.
 //
 
-
-#ifndef SOMERPG_PLAYER_H
-#define SOMERPG_PLAYER_H
+#ifndef SOMERPG_ENEMY_H
+#define SOMERPG_ENEMY_H
 
 #include "SDLGameObject.h"
 
-class Player : public SDLGameObject {
+
+class Enemy : public SDLGameObject {
 public:
 
-    Player(const LoaderParams *pParams);
+    Enemy(const LoaderParams *pParams);
 
     virtual void draw();
 
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //SOMERPG_PLAYER_H
+#endif //SOMERPG_ENEMY_H

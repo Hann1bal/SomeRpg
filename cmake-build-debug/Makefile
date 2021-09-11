@@ -174,6 +174,30 @@ SomeRPG/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/build
 .PHONY : SomeRPG/fast
 
+Enemy.o: Enemy.cpp.o
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -222,6 +246,30 @@ GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+LoaderParams.o: LoaderParams.cpp.o
+.PHONY : LoaderParams.o
+
+# target to build an object file
+LoaderParams.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o
+.PHONY : LoaderParams.cpp.o
+
+LoaderParams.i: LoaderParams.cpp.i
+.PHONY : LoaderParams.i
+
+# target to preprocess a source file
+LoaderParams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/LoaderParams.cpp.i
+.PHONY : LoaderParams.cpp.i
+
+LoaderParams.s: LoaderParams.cpp.s
+.PHONY : LoaderParams.s
+
+# target to generate assembly for a file
+LoaderParams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/LoaderParams.cpp.s
+.PHONY : LoaderParams.cpp.s
+
 Player.o: Player.cpp.o
 .PHONY : Player.o
 
@@ -245,6 +293,30 @@ Player.s: Player.cpp.s
 Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Player.cpp.s
 .PHONY : Player.cpp.s
+
+SDLGameObject.o: SDLGameObject.cpp.o
+.PHONY : SDLGameObject.o
+
+# target to build an object file
+SDLGameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o
+.PHONY : SDLGameObject.cpp.o
+
+SDLGameObject.i: SDLGameObject.cpp.i
+.PHONY : SDLGameObject.i
+
+# target to preprocess a source file
+SDLGameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.i
+.PHONY : SDLGameObject.cpp.i
+
+SDLGameObject.s: SDLGameObject.cpp.s
+.PHONY : SDLGameObject.s
+
+# target to generate assembly for a file
+SDLGameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.s
+.PHONY : SDLGameObject.cpp.s
 
 TextureManager.o: TextureManager.cpp.o
 .PHONY : TextureManager.o
@@ -307,15 +379,24 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... SomeRPG"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... LoaderParams.o"
+	@echo "... LoaderParams.i"
+	@echo "... LoaderParams.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... SDLGameObject.o"
+	@echo "... SDLGameObject.i"
+	@echo "... SDLGameObject.s"
 	@echo "... TextureManager.o"
 	@echo "... TextureManager.i"
 	@echo "... TextureManager.s"
