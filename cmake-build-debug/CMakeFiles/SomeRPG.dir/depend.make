@@ -8,42 +8,59 @@ CMakeFiles/SomeRPG.dir/Enemy.cpp.o: \
  ../GameObject.h \
  ../LoaderParams.h \
  ../SDLGameObject.h \
- ../TextureManager.h
+ ../TextureManager.h \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/Game.cpp.o: \
  ../Enemy.h \
  ../Game.cpp \
  ../Game.h \
  ../GameObject.h \
+ ../InputHandler.h \
  ../LoaderParams.h \
  ../Player.h \
  ../SDLGameObject.h \
- ../TextureManager.h
+ ../TextureManager.h \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/GameObject.cpp.o: \
  ../GameObject.cpp \
  ../GameObject.h \
  ../LoaderParams.h \
  ../TextureManager.h
+CMakeFiles/SomeRPG.dir/InputHandler.cpp.o: \
+ ../Game.h \
+ ../GameObject.h \
+ ../InputHandler.cpp \
+ ../InputHandler.h \
+ ../LoaderParams.h \
+ ../TextureManager.h \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o: \
  ../LoaderParams.cpp \
  ../LoaderParams.h
 CMakeFiles/SomeRPG.dir/Player.cpp.o: \
  ../Game.h \
  ../GameObject.h \
+ ../InputHandler.h \
  ../LoaderParams.h \
  ../Player.cpp \
  ../Player.h \
  ../SDLGameObject.h \
- ../TextureManager.h
+ ../TextureManager.h \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o: \
  ../Game.h \
  ../GameObject.h \
  ../LoaderParams.h \
  ../SDLGameObject.cpp \
  ../SDLGameObject.h \
- ../TextureManager.h
+ ../TextureManager.h \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/TextureManager.cpp.o: \
  ../TextureManager.cpp \
  ../TextureManager.h
+CMakeFiles/SomeRPG.dir/Vector2D.cpp.o: \
+ ../Vector2D.cpp \
+ ../Vector2D.h
 CMakeFiles/SomeRPG.dir/main.cpp.o: \
  ../Game.h \
  ../GameObject.h \

@@ -246,6 +246,30 @@ GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+InputHandler.o: InputHandler.cpp.o
+.PHONY : InputHandler.o
+
+# target to build an object file
+InputHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/InputHandler.cpp.o
+.PHONY : InputHandler.cpp.o
+
+InputHandler.i: InputHandler.cpp.i
+.PHONY : InputHandler.i
+
+# target to preprocess a source file
+InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/InputHandler.cpp.i
+.PHONY : InputHandler.cpp.i
+
+InputHandler.s: InputHandler.cpp.s
+.PHONY : InputHandler.s
+
+# target to generate assembly for a file
+InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/InputHandler.cpp.s
+.PHONY : InputHandler.cpp.s
+
 LoaderParams.o: LoaderParams.cpp.o
 .PHONY : LoaderParams.o
 
@@ -342,6 +366,30 @@ TextureManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/TextureManager.cpp.s
 .PHONY : TextureManager.cpp.s
 
+Vector2D.o: Vector2D.cpp.o
+.PHONY : Vector2D.o
+
+# target to build an object file
+Vector2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Vector2D.cpp.o
+.PHONY : Vector2D.cpp.o
+
+Vector2D.i: Vector2D.cpp.i
+.PHONY : Vector2D.i
+
+# target to preprocess a source file
+Vector2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Vector2D.cpp.i
+.PHONY : Vector2D.cpp.i
+
+Vector2D.s: Vector2D.cpp.s
+.PHONY : Vector2D.s
+
+# target to generate assembly for a file
+Vector2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/Vector2D.cpp.s
+.PHONY : Vector2D.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -388,6 +436,9 @@ help:
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... InputHandler.o"
+	@echo "... InputHandler.i"
+	@echo "... InputHandler.s"
 	@echo "... LoaderParams.o"
 	@echo "... LoaderParams.i"
 	@echo "... LoaderParams.s"
@@ -400,6 +451,9 @@ help:
 	@echo "... TextureManager.o"
 	@echo "... TextureManager.i"
 	@echo "... TextureManager.s"
+	@echo "... Vector2D.o"
+	@echo "... Vector2D.i"
+	@echo "... Vector2D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

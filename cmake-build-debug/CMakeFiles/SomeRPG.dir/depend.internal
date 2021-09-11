@@ -9,31 +9,44 @@ CMakeFiles/SomeRPG.dir/Enemy.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/Game.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Enemy.h
  /home/rusichru/CLionProjects/SomeRPG/Game.cpp
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/GameObject.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/GameObject.cpp
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+CMakeFiles/SomeRPG.dir/InputHandler.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/Game.h
+ /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp
+ /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
+ /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+ /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.cpp
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
 CMakeFiles/SomeRPG.dir/Player.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/Player.cpp
  /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
@@ -41,9 +54,13 @@ CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.cpp
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/TextureManager.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+CMakeFiles/SomeRPG.dir/Vector2D.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.cpp
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/main.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h

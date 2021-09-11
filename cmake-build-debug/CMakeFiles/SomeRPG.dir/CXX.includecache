@@ -19,6 +19,8 @@ Player.h
 /home/rusichru/CLionProjects/SomeRPG/Player.h
 Enemy.h
 /home/rusichru/CLionProjects/SomeRPG/Enemy.h
+InputHandler.h
+/home/rusichru/CLionProjects/SomeRPG/InputHandler.h
 
 /home/rusichru/CLionProjects/SomeRPG/Game.h
 SDL2/SDL.h
@@ -38,6 +40,22 @@ iostream
 LoaderParams.h
 /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
 
+/home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp
+InputHandler.h
+/home/rusichru/CLionProjects/SomeRPG/InputHandler.h
+Game.h
+/home/rusichru/CLionProjects/SomeRPG/Game.h
+
+/home/rusichru/CLionProjects/SomeRPG/InputHandler.h
+SDL2/SDL.h
+-
+vector
+-
+iostream
+-
+Vector2D.h
+/home/rusichru/CLionProjects/SomeRPG/Vector2D.h
+
 /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
 SDL2/SDL.h
 -
@@ -45,6 +63,12 @@ SDL2/SDL_image.h
 -
 iostream
 -
+
+/home/rusichru/CLionProjects/SomeRPG/Player.cpp
+Player.h
+/home/rusichru/CLionProjects/SomeRPG/Player.h
+InputHandler.h
+/home/rusichru/CLionProjects/SomeRPG/InputHandler.h
 
 /home/rusichru/CLionProjects/SomeRPG/Player.h
 SDLGameObject.h
@@ -57,6 +81,8 @@ GameObject.h
 /home/rusichru/CLionProjects/SomeRPG/GameObject.h
 Game.h
 /home/rusichru/CLionProjects/SomeRPG/Game.h
+Vector2D.h
+/home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 
 /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
 iostream
@@ -65,4 +91,8 @@ SDL2/SDL.h
 -
 map
 -
+
+/home/rusichru/CLionProjects/SomeRPG/Vector2D.h
+math.h
+/home/rusichru/CLionProjects/SomeRPG/math.h
 

@@ -11,10 +11,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rusichru/CLionProjects/SomeRPG/Enemy.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Enemy.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/Game.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Game.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/GameObject.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/GameObject.cpp.o"
+  "/home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/InputHandler.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/LoaderParams.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/Player.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Player.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/SDLGameObject.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/TextureManager.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/TextureManager.cpp.o"
+  "/home/rusichru/CLionProjects/SomeRPG/Vector2D.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/Vector2D.cpp.o"
   "/home/rusichru/CLionProjects/SomeRPG/main.cpp" "/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles/SomeRPG.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

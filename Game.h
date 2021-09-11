@@ -27,6 +27,8 @@ public:
 
     void clean();
 
+    void quit();
+
     bool running() const { return isRunning; };
 
     static Game *Instance() {
