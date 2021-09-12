@@ -46,6 +46,7 @@ private:
     std::vector<std::pair<Vector2D *, Vector2D *>> m_joystickValues;
     static InputHandler *s_pInstance;
     int m_joystickDeadZone = 8000;
+
 };
 
 typedef InputHandler TheInputHandler;

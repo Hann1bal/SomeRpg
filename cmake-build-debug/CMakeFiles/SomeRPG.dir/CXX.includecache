@@ -40,12 +40,6 @@ iostream
 LoaderParams.h
 /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
 
-/home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp
-InputHandler.h
-/home/rusichru/CLionProjects/SomeRPG/InputHandler.h
-Game.h
-/home/rusichru/CLionProjects/SomeRPG/Game.h
-
 /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
 SDL2/SDL.h
 -

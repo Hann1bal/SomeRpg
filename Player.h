@@ -19,9 +19,15 @@ public:
 
     virtual void clean();
 
+    virtual int getTextureOfSet();
+
 private:
     void handleInput();
 
+    enum Player_axis {
+        LEFT, RIGHT, UP, DOWN
+    };
+    Player_axis playerAxis;
 };
 
 
