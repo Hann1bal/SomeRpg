@@ -9,8 +9,10 @@
 #include <SDL2/SDL_image.h>
 #include <vector>
 #include "TextureManager.h"
-#include "GameObject.h"
-
+#include "GameStateMachine.h"
+#include "MenuState.h"
+#include "Player.h"
+#include "Enemy.h"
 
 class Game {
 public:
@@ -42,11 +44,21 @@ public:
 private:
     Game() {}
 
+    enum Game_states {
+        MENU = 0,
+        PLAY = 1,
+        GAMEOVER = 2
+    };
     bool isRunning;
     SDL_Window *window;
     SDL_Renderer *m_pRenderer;
     std::vector<GameObject *> m_gameObjects;
     static Game *s_pInstance;
+    Player *m_pPlayer;
+    Enemy *m_pEnemy;
+    Game_states m_currentGameState = MENU;
+    GameStateMachine *m_pGameStateMachine;
+
 };
 
 typedef Game TheGame;

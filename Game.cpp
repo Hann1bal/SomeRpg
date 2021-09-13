@@ -5,9 +5,10 @@
 #include <iostream>
 
 #include "Game.h"
-#include "Player.h"
-#include "Enemy.h"
+
 #include "InputHandler.h"
+#include "MenuState.h"
+#include "PlayState.h"
 
 Game *Game::s_pInstance = 0;
 
@@ -33,8 +34,15 @@ bool Game::init(const char *title, int xpos, int ypos, int width, int height, bo
     }
     TheInputHandler::Instance()->initialiseJoysticks();
 
+    m_pGameStateMachine = new GameStateMachine();
+    m_pGameStateMachine->changeState(new MenuState());
+
     m_gameObjects.push_back(new Player(new LoaderParams(100, 100, 16, 32, "animate")));
     m_gameObjects.push_back(new Enemy(new LoaderParams(300, 300, 16, 32, "animate")));
+//    MenuObject *m_pMenuObj1 = new MenuObject();
+//    MenuObject *m_pMenuObj2 = new MenuObject();
+    m_pPlayer = new Player(new LoaderParams(450, 450, 16, 32, "animate"));
+    m_pEnemy = new Enemy(new LoaderParams(400, 400, 16, 32, "animate"));
 
 
     if (!TheTextureManager::Instance()->load("assets/Adam_run_16x16.png", "animate",
@@ -46,6 +54,10 @@ bool Game::init(const char *title, int xpos, int ypos, int width, int height, bo
 
 void Game::handleEvents() {
     TheInputHandler::Instance()->update();
+    if (TheInputHandler::Instance()->getButtonState(0, 7)) {
+        m_pGameStateMachine->changeState(new PlayState());
+        std::cout << "entered" << std::endl;
+    }
 }
 
 void Game::render() {
@@ -57,6 +69,16 @@ void Game::render() {
 }
 
 void Game::update() {
+//    switch (m_currentGameState) {
+//        case MENU:
+//            m_menuObj1->update();
+//            m_menuObj2->update();
+//            break;
+//        case PLAY:
+//            m_pPlayer->update();
+//            m_pEnemy->update();
+//// do game over stuff...
+//    }
     for (std::vector<GameObject *>::size_type i = 0; i != m_gameObjects.size(); i++) {
         m_gameObjects[i]->update();
     }

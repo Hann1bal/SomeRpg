@@ -18,6 +18,15 @@ public:
     virtual void update();
 
     virtual void clean();
+
+//    virtual int getTextureOfSet();
+
+private:
+    enum Enemy_axis {
+        LEFT, RIGHT, UP, DOWN
+    };
+    Enemy_axis enemyAxis;
+
 };
 
 

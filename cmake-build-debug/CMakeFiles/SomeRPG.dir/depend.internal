@@ -4,7 +4,6 @@
 CMakeFiles/SomeRPG.dir/Enemy.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Enemy.cpp
  /home/rusichru/CLionProjects/SomeRPG/Enemy.h
- /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
@@ -15,8 +14,12 @@ CMakeFiles/SomeRPG.dir/Game.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Game.cpp
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h
  /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.h
+ /home/rusichru/CLionProjects/SomeRPG/PlayState.h
  /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
@@ -26,19 +29,39 @@ CMakeFiles/SomeRPG.dir/GameObject.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+CMakeFiles/SomeRPG.dir/GameState.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameState.cpp
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.cpp
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h
 CMakeFiles/SomeRPG.dir/InputHandler.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/Enemy.h
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h
  /home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp
  /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
+ /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
  /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.cpp
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+CMakeFiles/SomeRPG.dir/MenuState.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.cpp
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.h
+CMakeFiles/SomeRPG.dir/PlayState.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/PlayState.cpp
+ /home/rusichru/CLionProjects/SomeRPG/PlayState.h
 CMakeFiles/SomeRPG.dir/Player.cpp.o
- /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
  /home/rusichru/CLionProjects/SomeRPG/InputHandler.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
@@ -48,9 +71,14 @@ CMakeFiles/SomeRPG.dir/Player.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
  /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/Enemy.h
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.cpp
  /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
@@ -62,8 +90,15 @@ CMakeFiles/SomeRPG.dir/Vector2D.cpp.o
  /home/rusichru/CLionProjects/SomeRPG/Vector2D.cpp
  /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
 CMakeFiles/SomeRPG.dir/main.cpp.o
+ /home/rusichru/CLionProjects/SomeRPG/Enemy.h
  /home/rusichru/CLionProjects/SomeRPG/Game.h
  /home/rusichru/CLionProjects/SomeRPG/GameObject.h
+ /home/rusichru/CLionProjects/SomeRPG/GameState.h
+ /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h
  /home/rusichru/CLionProjects/SomeRPG/LoaderParams.h
+ /home/rusichru/CLionProjects/SomeRPG/MenuState.h
+ /home/rusichru/CLionProjects/SomeRPG/Player.h
+ /home/rusichru/CLionProjects/SomeRPG/SDLGameObject.h
  /home/rusichru/CLionProjects/SomeRPG/TextureManager.h
+ /home/rusichru/CLionProjects/SomeRPG/Vector2D.h
  /home/rusichru/CLionProjects/SomeRPG/main.cpp

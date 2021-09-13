@@ -196,6 +196,58 @@ CMakeFiles/SomeRPG.dir/InputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SomeRPG.dir/InputHandler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp -o CMakeFiles/SomeRPG.dir/InputHandler.cpp.s
 
+CMakeFiles/SomeRPG.dir/GameState.cpp.o: CMakeFiles/SomeRPG.dir/flags.make
+CMakeFiles/SomeRPG.dir/GameState.cpp.o: ../GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SomeRPG.dir/GameState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SomeRPG.dir/GameState.cpp.o -c /home/rusichru/CLionProjects/SomeRPG/GameState.cpp
+
+CMakeFiles/SomeRPG.dir/GameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SomeRPG.dir/GameState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusichru/CLionProjects/SomeRPG/GameState.cpp > CMakeFiles/SomeRPG.dir/GameState.cpp.i
+
+CMakeFiles/SomeRPG.dir/GameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SomeRPG.dir/GameState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusichru/CLionProjects/SomeRPG/GameState.cpp -o CMakeFiles/SomeRPG.dir/GameState.cpp.s
+
+CMakeFiles/SomeRPG.dir/MenuState.cpp.o: CMakeFiles/SomeRPG.dir/flags.make
+CMakeFiles/SomeRPG.dir/MenuState.cpp.o: ../MenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SomeRPG.dir/MenuState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SomeRPG.dir/MenuState.cpp.o -c /home/rusichru/CLionProjects/SomeRPG/MenuState.cpp
+
+CMakeFiles/SomeRPG.dir/MenuState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SomeRPG.dir/MenuState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusichru/CLionProjects/SomeRPG/MenuState.cpp > CMakeFiles/SomeRPG.dir/MenuState.cpp.i
+
+CMakeFiles/SomeRPG.dir/MenuState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SomeRPG.dir/MenuState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusichru/CLionProjects/SomeRPG/MenuState.cpp -o CMakeFiles/SomeRPG.dir/MenuState.cpp.s
+
+CMakeFiles/SomeRPG.dir/PlayState.cpp.o: CMakeFiles/SomeRPG.dir/flags.make
+CMakeFiles/SomeRPG.dir/PlayState.cpp.o: ../PlayState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SomeRPG.dir/PlayState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SomeRPG.dir/PlayState.cpp.o -c /home/rusichru/CLionProjects/SomeRPG/PlayState.cpp
+
+CMakeFiles/SomeRPG.dir/PlayState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SomeRPG.dir/PlayState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusichru/CLionProjects/SomeRPG/PlayState.cpp > CMakeFiles/SomeRPG.dir/PlayState.cpp.i
+
+CMakeFiles/SomeRPG.dir/PlayState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SomeRPG.dir/PlayState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusichru/CLionProjects/SomeRPG/PlayState.cpp -o CMakeFiles/SomeRPG.dir/PlayState.cpp.s
+
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o: CMakeFiles/SomeRPG.dir/flags.make
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o: ../GameStateMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o -c /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.cpp
+
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.cpp > CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.i
+
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusichru/CLionProjects/SomeRPG/GameStateMachine.cpp -o CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.s
+
 # Object files for target SomeRPG
 SomeRPG_OBJECTS = \
 "CMakeFiles/SomeRPG.dir/main.cpp.o" \
@@ -207,7 +259,11 @@ SomeRPG_OBJECTS = \
 "CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o" \
 "CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o" \
 "CMakeFiles/SomeRPG.dir/Vector2D.cpp.o" \
-"CMakeFiles/SomeRPG.dir/InputHandler.cpp.o"
+"CMakeFiles/SomeRPG.dir/InputHandler.cpp.o" \
+"CMakeFiles/SomeRPG.dir/GameState.cpp.o" \
+"CMakeFiles/SomeRPG.dir/MenuState.cpp.o" \
+"CMakeFiles/SomeRPG.dir/PlayState.cpp.o" \
+"CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o"
 
 # External object files for target SomeRPG
 SomeRPG_EXTERNAL_OBJECTS =
@@ -222,9 +278,13 @@ SomeRPG: CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o
 SomeRPG: CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o
 SomeRPG: CMakeFiles/SomeRPG.dir/Vector2D.cpp.o
 SomeRPG: CMakeFiles/SomeRPG.dir/InputHandler.cpp.o
+SomeRPG: CMakeFiles/SomeRPG.dir/GameState.cpp.o
+SomeRPG: CMakeFiles/SomeRPG.dir/MenuState.cpp.o
+SomeRPG: CMakeFiles/SomeRPG.dir/PlayState.cpp.o
+SomeRPG: CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o
 SomeRPG: CMakeFiles/SomeRPG.dir/build.make
 SomeRPG: CMakeFiles/SomeRPG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SomeRPG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusichru/CLionProjects/SomeRPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SomeRPG"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SomeRPG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

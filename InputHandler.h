@@ -24,6 +24,8 @@ public:
 
     void initialiseJoysticks();
 
+    bool getButtonState(int joy, int buttonNumber);
+
     bool joysticksInitialised() {
         return m_bJoysticksInitialised;
     }
@@ -46,6 +48,8 @@ private:
     std::vector<std::pair<Vector2D *, Vector2D *>> m_joystickValues;
     static InputHandler *s_pInstance;
     int m_joystickDeadZone = 8000;
+    std::vector<std::vector<bool>> m_buttonStates;
+
 
 };
 

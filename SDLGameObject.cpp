@@ -3,6 +3,7 @@
 //
 
 #include "SDLGameObject.h"
+#include "Game.h"
 
 SDLGameObject::SDLGameObject(const LoaderParams *pParams) : GameObject(pParams),
                                                             m_position(pParams->getX(), pParams->getY()),
@@ -26,6 +27,7 @@ void SDLGameObject::draw() {
 void SDLGameObject::update() {
     m_velocity += m_acceleration;
     m_position += m_velocity;
+
 }
 
 void SDLGameObject::clean() {

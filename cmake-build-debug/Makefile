@@ -246,6 +246,54 @@ GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+GameState.o: GameState.cpp.o
+.PHONY : GameState.o
+
+# target to build an object file
+GameState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameState.cpp.o
+.PHONY : GameState.cpp.o
+
+GameState.i: GameState.cpp.i
+.PHONY : GameState.i
+
+# target to preprocess a source file
+GameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameState.cpp.i
+.PHONY : GameState.cpp.i
+
+GameState.s: GameState.cpp.s
+.PHONY : GameState.s
+
+# target to generate assembly for a file
+GameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameState.cpp.s
+.PHONY : GameState.cpp.s
+
+GameStateMachine.o: GameStateMachine.cpp.o
+.PHONY : GameStateMachine.o
+
+# target to build an object file
+GameStateMachine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o
+.PHONY : GameStateMachine.cpp.o
+
+GameStateMachine.i: GameStateMachine.cpp.i
+.PHONY : GameStateMachine.i
+
+# target to preprocess a source file
+GameStateMachine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.i
+.PHONY : GameStateMachine.cpp.i
+
+GameStateMachine.s: GameStateMachine.cpp.s
+.PHONY : GameStateMachine.s
+
+# target to generate assembly for a file
+GameStateMachine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.s
+.PHONY : GameStateMachine.cpp.s
+
 InputHandler.o: InputHandler.cpp.o
 .PHONY : InputHandler.o
 
@@ -293,6 +341,54 @@ LoaderParams.s: LoaderParams.cpp.s
 LoaderParams.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/LoaderParams.cpp.s
 .PHONY : LoaderParams.cpp.s
+
+MenuState.o: MenuState.cpp.o
+.PHONY : MenuState.o
+
+# target to build an object file
+MenuState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/MenuState.cpp.o
+.PHONY : MenuState.cpp.o
+
+MenuState.i: MenuState.cpp.i
+.PHONY : MenuState.i
+
+# target to preprocess a source file
+MenuState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/MenuState.cpp.i
+.PHONY : MenuState.cpp.i
+
+MenuState.s: MenuState.cpp.s
+.PHONY : MenuState.s
+
+# target to generate assembly for a file
+MenuState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/MenuState.cpp.s
+.PHONY : MenuState.cpp.s
+
+PlayState.o: PlayState.cpp.o
+.PHONY : PlayState.o
+
+# target to build an object file
+PlayState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/PlayState.cpp.o
+.PHONY : PlayState.cpp.o
+
+PlayState.i: PlayState.cpp.i
+.PHONY : PlayState.i
+
+# target to preprocess a source file
+PlayState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/PlayState.cpp.i
+.PHONY : PlayState.cpp.i
+
+PlayState.s: PlayState.cpp.s
+.PHONY : PlayState.s
+
+# target to generate assembly for a file
+PlayState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SomeRPG.dir/build.make CMakeFiles/SomeRPG.dir/PlayState.cpp.s
+.PHONY : PlayState.cpp.s
 
 Player.o: Player.cpp.o
 .PHONY : Player.o
@@ -436,12 +532,24 @@ help:
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... GameState.o"
+	@echo "... GameState.i"
+	@echo "... GameState.s"
+	@echo "... GameStateMachine.o"
+	@echo "... GameStateMachine.i"
+	@echo "... GameStateMachine.s"
 	@echo "... InputHandler.o"
 	@echo "... InputHandler.i"
 	@echo "... InputHandler.s"
 	@echo "... LoaderParams.o"
 	@echo "... LoaderParams.i"
 	@echo "... LoaderParams.s"
+	@echo "... MenuState.o"
+	@echo "... MenuState.i"
+	@echo "... MenuState.s"
+	@echo "... PlayState.o"
+	@echo "... PlayState.i"
+	@echo "... PlayState.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"

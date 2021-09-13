@@ -4,7 +4,6 @@
 CMakeFiles/SomeRPG.dir/Enemy.cpp.o: \
  ../Enemy.cpp \
  ../Enemy.h \
- ../Game.h \
  ../GameObject.h \
  ../LoaderParams.h \
  ../SDLGameObject.h \
@@ -15,8 +14,12 @@ CMakeFiles/SomeRPG.dir/Game.cpp.o: \
  ../Game.cpp \
  ../Game.h \
  ../GameObject.h \
+ ../GameState.h \
+ ../GameStateMachine.h \
  ../InputHandler.h \
  ../LoaderParams.h \
+ ../MenuState.h \
+ ../PlayState.h \
  ../Player.h \
  ../SDLGameObject.h \
  ../TextureManager.h \
@@ -26,19 +29,39 @@ CMakeFiles/SomeRPG.dir/GameObject.cpp.o: \
  ../GameObject.h \
  ../LoaderParams.h \
  ../TextureManager.h
+CMakeFiles/SomeRPG.dir/GameState.cpp.o: \
+ ../GameState.cpp \
+ ../GameState.h
+CMakeFiles/SomeRPG.dir/GameStateMachine.cpp.o: \
+ ../GameState.h \
+ ../GameStateMachine.cpp \
+ ../GameStateMachine.h
 CMakeFiles/SomeRPG.dir/InputHandler.cpp.o: \
+ ../Enemy.h \
  ../Game.h \
  ../GameObject.h \
+ ../GameState.h \
+ ../GameStateMachine.h \
  ../InputHandler.cpp \
  ../InputHandler.h \
  ../LoaderParams.h \
+ ../MenuState.h \
+ ../Player.h \
+ ../SDLGameObject.h \
  ../TextureManager.h \
  ../Vector2D.h
 CMakeFiles/SomeRPG.dir/LoaderParams.cpp.o: \
  ../LoaderParams.cpp \
  ../LoaderParams.h
+CMakeFiles/SomeRPG.dir/MenuState.cpp.o: \
+ ../GameState.h \
+ ../MenuState.cpp \
+ ../MenuState.h
+CMakeFiles/SomeRPG.dir/PlayState.cpp.o: \
+ ../GameState.h \
+ ../PlayState.cpp \
+ ../PlayState.h
 CMakeFiles/SomeRPG.dir/Player.cpp.o: \
- ../Game.h \
  ../GameObject.h \
  ../InputHandler.h \
  ../LoaderParams.h \
@@ -48,9 +71,14 @@ CMakeFiles/SomeRPG.dir/Player.cpp.o: \
  ../TextureManager.h \
  ../Vector2D.h
 CMakeFiles/SomeRPG.dir/SDLGameObject.cpp.o: \
+ ../Enemy.h \
  ../Game.h \
  ../GameObject.h \
+ ../GameState.h \
+ ../GameStateMachine.h \
  ../LoaderParams.h \
+ ../MenuState.h \
+ ../Player.h \
  ../SDLGameObject.cpp \
  ../SDLGameObject.h \
  ../TextureManager.h \
@@ -62,8 +90,15 @@ CMakeFiles/SomeRPG.dir/Vector2D.cpp.o: \
  ../Vector2D.cpp \
  ../Vector2D.h
 CMakeFiles/SomeRPG.dir/main.cpp.o: \
+ ../Enemy.h \
  ../Game.h \
  ../GameObject.h \
+ ../GameState.h \
+ ../GameStateMachine.h \
  ../LoaderParams.h \
+ ../MenuState.h \
+ ../Player.h \
+ ../SDLGameObject.h \
  ../TextureManager.h \
+ ../Vector2D.h \
  ../main.cpp

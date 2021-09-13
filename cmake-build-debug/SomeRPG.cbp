@@ -142,6 +142,18 @@
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameObject.h">
 			<Option target="SomeRPG"/>
 		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameState.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameState.h">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameStateMachine.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/GameStateMachine.h">
+			<Option target="SomeRPG"/>
+		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/InputHandler.cpp">
 			<Option target="SomeRPG"/>
 		</Unit>
@@ -152,6 +164,18 @@
 			<Option target="SomeRPG"/>
 		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/LoaderParams.h">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/MenuState.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/MenuState.h">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/PlayState.cpp">
+			<Option target="SomeRPG"/>
+		</Unit>
+		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/PlayState.h">
 			<Option target="SomeRPG"/>
 		</Unit>
 		<Unit filename="/home/rusichru/CLionProjects/SomeRPG/Player.cpp">
