@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Default" BUILD_OPTIONS="-- -j 24" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2486a35a-15ee-4ac9-ae10-0b5ad7b65417" name="Changes" comment="v 0.0.0.5 - Released FSM and JoysticButtonHandler" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testing_branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99545442-d743-4268-b9b4-243fcededf2e" />
+        <option name="url" value="https://github.com/Hann1bal/SomeRpg.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/include/SDL2/SDL_render.h" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1xlsnkcYsyDyAKwtnWNi5W818TI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug/assets" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeRPG" type="CMakeRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="SomeRPG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="SomeRPG">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2486a35a-15ee-4ac9-ae10-0b5ad7b65417" name="Changes" comment="" />
+      <created>1630941178955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630941178955</updated>
+      <workItem from="1630941180108" duration="10699000" />
+      <workItem from="1631033720184" duration="1809000" />
+      <workItem from="1631043315650" duration="12969000" />
+      <workItem from="1631271775064" duration="19744000" />
+      <workItem from="1631365372642" duration="4918000" />
+      <workItem from="1631384615991" duration="9774000" />
+      <workItem from="1631436829019" duration="5986000" />
+      <workItem from="1631452834897" duration="232000" />
+      <workItem from="1631539880907" duration="15109000" />
+      <workItem from="1631561926233" duration="2694000" />
+    </task>
+    <task id="LOCAL-00001" summary="v 0.0.0.1">
+      <created>1631272001294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631272001294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v 0.0.0.1">
+      <created>1631272017335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631272017335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v 0.0.0.2">
+      <created>1631297420819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631297420820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v 0.0.0.3 - only render and makes Game.h and TextureManager.cpp as Singleton">
+      <created>1631369243667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631369243668</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v 0.0.0.3 - add handle events and joystick init">
+      <created>1631397979565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631397979565</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v 0.0.0.4 - Changing the animation based on the axis movement">
+      <created>1631449150327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631449150327</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v 0.0.0.5 - Released FSM and JoysticButtonHandler">
+      <created>1631567247479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631567247479</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v 0.0.0.5 - Released FSM and JoysticButtonHandler">
+      <created>1631567602098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631567602098</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v 0.0.0.5 - Released FSM and JoysticButtonHandler">
+      <created>1631567696925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631567696925</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v 0.0.0.1" />
+    <MESSAGE value="v 0.0.0.2" />
+    <MESSAGE value="v 0.0.0.3 - only render and makes Game.h and TextureManager.cpp as Singleton" />
+    <MESSAGE value="v 0.0.0.3 - add handle events and joystick init" />
+    <MESSAGE value="v 0.0.0.4 - Changing the animation based on the axis movement" />
+    <MESSAGE value="v 0.0.0.5 - Released FSM and JoysticButtonHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.0.0.5 - Released FSM and JoysticButtonHandler" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
